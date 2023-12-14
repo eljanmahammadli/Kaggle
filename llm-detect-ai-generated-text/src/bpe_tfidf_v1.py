@@ -35,11 +35,9 @@ from lightgbm import LGBMClassifier
 from catboost import CatBoostClassifier
 from sklearn.feature_extraction.text import TfidfVectorizer
 from tokenizers import (
-    decoders,
     models,
     normalizers,
     pre_tokenizers,
-    processors,
     trainers,
     Tokenizer,
 )
